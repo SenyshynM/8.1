@@ -2,6 +2,28 @@
 #include <iostream>
 
 using namespace std;
+char* Change(char* dest, const char* s, char* t, int i);
+
+int main()
+{
+	char s[101];
+
+
+	cout << "Enter string:" << endl;
+	cin.getline(s, 100);
+
+	char* s1 = new char[151]; // tmp
+	s1[0] = '\0';
+
+	char* dest2;
+	dest2 = Change(s1, s, s1, 0);
+
+	cout << endl;
+	cout << "string : " << s << endl;
+	cout << "Modified string : " << dest2 << endl;
+
+	return 0;
+}
 
 char* Change(char* dest, const char* s, char* t, int i)
 {
@@ -28,23 +50,3 @@ char* Change(char* dest, const char* s, char* t, int i)
 	}
 }
 
-int main()
-{
-	char s[101]; 
-
-
-	cout << "Enter string:" << endl;
-	cin.getline(s, 100);
-
-	char* s1 = new char[151];
-	s1[0] = '\0';
-
-	char* dest2;
-	dest2 = Change(s1, s, s1, 0);
-
-	cout << endl;
-	cout << "string : " << s << endl;
-	cout << "Modified string : " << s1 << endl;
-
-	return 0;
-}

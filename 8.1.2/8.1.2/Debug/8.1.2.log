@@ -1,2 +1,4 @@
 ﻿  8.1.2.cpp
+E:\унік\Алгоритмізація і програмування\8.1\8.1.2\8.1.2\8.1.2.cpp(26,33): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+E:\унік\Алгоритмізація і програмування\8.1\8.1.2\8.1.2\8.1.2.cpp(32,11): warning C4018: '<': signed/unsigned mismatch
   8.1.2.vcxproj -> E:\унік\Алгоритмізація і програмування\8.1\8.1.2\Debug\8.1.2.exe

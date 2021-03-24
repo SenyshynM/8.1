@@ -1,0 +1,5 @@
+﻿  8.1.6.cpp
+E:\унік\Алгоритмізація і програмування\8.1\8.1.6\8.1.6\8.1.6.cpp(31,37): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+E:\унік\Алгоритмізація і програмування\8.1\8.1.6\8.1.6\8.1.6.cpp(63,37): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+E:\унік\Алгоритмізація і програмування\8.1\8.1.6\8.1.6\8.1.6.cpp(95,37): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  8.1.6.vcxproj -> E:\унік\Алгоритмізація і програмування\8.1\8.1.6\Debug\8.1.6.exe
